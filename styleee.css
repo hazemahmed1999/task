@@ -1,0 +1,159 @@
+body{
+	width:100%;
+	margin-top:0px;
+	height:2000px;
+	background-color:#726e6f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.bes
+{
+background-color:#EE6052;
+	width:100%;
+	height:50px;
+	margin-top:none;
+}
+.par
+{
+	float:right;
+	color:white;
+	list-style:none;
+	margin-top:15px;
+	margin-right:29px;
+	font-size:20px;
+   
+	
+	
+}
+
+
+a
+{text-decoration:none; 
+color:white; }
+	
+a:hover
+{
+	;
+	color:green;
+	
+	
+}
+img{
+	background-size:cover;
+	width:100%;
+	height:680px;
+	
+}
+.big
+{
+	margin-top:0px;
+	
+	
+    height:700px;
+	
+}
+
+.container
+{
+margin-top:0px;
+
+	  margin-left:300px;
+	
+}
+
+
+
+.cardro {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-top:15px;
+    float:left;
+	margin-right:20px;
+
+}
+
+.cardx {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardro:hover .cardx {
+  transform: rotateY(180deg);
+}
+
+.cardy, .cardz {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cardy {
+  background-color: #bbb;
+  color: black;
+}
+
+ .cardz {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.contactz
+{
+	margin-left:300px;
+
+	 height:200px;
+}
+.formm
+{
+	/*border-radius:20%;*/
+	display:block;
+	width:85%;
+	height:40px;
+	font-size:24px;
+	text-color:000000;
+	background-color:#e7667c;
+	
+	
+}
+
+
+
+.label
+{
+	
+	
+	
+}
+ h2
+{
+	width:8%;
+	margin-left:700px;
+	background-color:#ff002a;
+}
+
+
+.put
+{
+	margin-left:420px;
+	margin-top:20px;
+	size:50;
+}
+
+
+
+
+
+
